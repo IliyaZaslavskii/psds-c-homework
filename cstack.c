@@ -198,7 +198,6 @@ hstack_t stack_get_all(void)
     {
         return -1;
     }
-
     for (unsigned int i = 0; i < g_table.size; i++)
     {
         if (g_table.entries[i].reserved && (hstack_t)i != new_stack)
